@@ -1,0 +1,20 @@
+{
+  "name": "webpack-4-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "html-webpack-plugin": "^5.5.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development",    
+    "build": "webpack --mode production"
+  },
+  "author": "",
+  "license": "ISC"
+}
